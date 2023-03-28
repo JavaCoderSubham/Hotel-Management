@@ -53,4 +53,28 @@ public class ReviewServiceImpl implements ReviewService{
         dao.deleteById(id);
         log.info("deleteById(String) -> | Id : {} | Deleted...",id);
     }
+
+    @Override
+    public List<Review> findByUserId(String userId) {
+        log.info("findByUserId(String) -> | UserId : {}",userId);
+        List<Review> getReview = dao.findByUserId(userId);
+        log.info("findByUserId(String) -> | List Review : {}",getReview);
+        return getReview;
+    }
+
+    @Override
+    public List<Review> findByHotelId(String hotelId) {
+        log.info("findByHotelId(String) -> | HotelId : {}",hotelId);
+        List<Review> getReview = dao.findByHotelId(hotelId);
+        log.info("findByHotelId(String) -> | List Review : {}",getReview);
+        return getReview;
+    }
+
+    @Override
+    public List<Review> findByUserIdAndHotelId(String userId, String hotelId) {
+        log.info("findByUserIdAndHotelId(String,String) -> | UserId : {} | HotelId : {}",userId,hotelId);
+        List<Review> getReview = dao.findByUserIdAndHotelId(userId, hotelId);
+        log.info("findByUserIdAndHotelId(String,String) -> | List Review : {}",getReview);
+        return getReview;
+    }
 }

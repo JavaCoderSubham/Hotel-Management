@@ -16,7 +16,6 @@ public class UserDetails {
 
     @Id
     private String userId;
-    private String reviewId;
     private String firstName;
     private String lastName;
     @Column(unique = true)

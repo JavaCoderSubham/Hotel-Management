@@ -10,4 +10,10 @@ public interface ReviewService {
     Review create(Review review);
     Review update(String id, Review review);
     void deleteById(String id);
+
+//    find method
+
+    List<Review> findByUserId(String userId);
+    List<Review> findByHotelId(String hotelId);
+    List<Review> findByUserIdAndHotelId(String userId, String hotelId);
 }
