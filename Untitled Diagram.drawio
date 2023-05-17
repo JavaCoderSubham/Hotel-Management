@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T06:23:16.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QXA2ZEd6mlZzrw5HlisG" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T06:26:07.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JEGNvUKohQFow6DgkzyK" version="21.3.2" type="github">
   <diagram name="Page-1" id="zJ9mpb9FcX2JbpjDQztF">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="lN6oGEisXA3MA-B1Hms9-64" value="&lt;h1&gt;Security&amp;nbsp;&lt;/h1&gt;&lt;p&gt;In Security JWT implement create token and validate token only and it connect to &lt;b&gt;credentials manager&lt;/b&gt; service because of hotel, user and admin all microservice credential data present in credential manager db.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Because we can easily find out and email password can&#39;t be duplicate.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="680" width="196" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lN6oGEisXA3MA-B1Hms9-65" value="&lt;h1&gt;Eureka Server&lt;/h1&gt;&lt;p&gt;Register Service there all Microservice are register and we can check which server working or not.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="910" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
